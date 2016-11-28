@@ -4,7 +4,7 @@
     angular.module('ecom')
         .controller('PushCtrl', PushCtrl);
 
-    PushCtrl.$inject = ['$rootScope', 'ChannelsService', 'ModalService', 'AudioService', 'ChannelMetadataService'];
+    PushCtrl.$inject = ['$rootScope'];
 
     function PushCtrl($rootScope) {
     }

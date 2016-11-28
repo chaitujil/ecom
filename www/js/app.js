@@ -68,7 +68,7 @@
                 views: {
                     'tab-add': {
                         cache: false,
-                        templateUrl: 'js/ecom/reports/tab-add.html',
+                        templateUrl: 'js/ecom/add/tab-add.html',
                         controller: 'AddCtrl as addCtrl'
                     }
                 }
