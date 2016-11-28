@@ -95,18 +95,10 @@ ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-col
 }
 
 h, h1, h2, h3, h4, h5, h6, .h, .h1, .h2, .h3, .h4, .h5, .h6 {
-    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    #font-family: Arial, Helvetica, sans-serif;
-    #font-family: Verdana, Geneva, sans-serif;
-    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     line-height: 0.5;
 }
 
-p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
-    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    #font-family: Arial, Helvetica, sans-serif;
-    #font-family: Verdana, Geneva, sans-serif;
-    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+p, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
     line-height: 1.2;
 }
 .center-content {
@@ -118,15 +110,11 @@ p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
 }
 
 .ecom-page {
-    background-image: url("/img/loyalty.jpg");
+    background-image: url("/img/loyalty3.jpg");
 }
 
 .contact-info {
     font-size: 12pt;
-    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    #font-family: Arial, Helvetica, sans-serif;
-    #font-family: Verdana, Geneva, sans-serif;
-    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin: 20px;
 }
 
@@ -134,7 +122,6 @@ p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
     #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 12pt;
     padding: 3%;
-    #background-image: url("/img/texture-wood-white.png");
 }
 
 .settings-content .icon {
@@ -160,10 +147,6 @@ p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
 }
 
 .send-suggestion .button {
-    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    #font-family: Arial, Helvetica, sans-serif;
-    #font-family: Verdana, Geneva, sans-serif;
-    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12pt;
     margin-top: 10px;
     #float: center;
@@ -173,10 +156,6 @@ p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
 }
 
 .share-app .button {
-    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    #font-family: Arial, Helvetica, sans-serif;
-    #font-family: Verdana, Geneva, sans-serif;
-    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     font-size: 12pt;
     margin-top: 10px;
     float: left;
