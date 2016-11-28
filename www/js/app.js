@@ -88,7 +88,7 @@
                 views: {
                     'tab-reports': {
                         cache: false,
-                        templateUrl: 'js/ecom/push/tab-reports.html',
+                        templateUrl: 'js/ecom/reports/tab-reports.html',
                         controller: 'ReportsCtrl as reportsCtrl'
                     }
                 }
