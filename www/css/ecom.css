@@ -110,7 +110,8 @@ p, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
 }
 
 .ecom-page {
-    background-image: url("/img/loyalty3.jpg");
+    background-color: lightblue;
+    #background-image: url("/img/loyalty3.jpg");
 }
 
 .contact-info {
