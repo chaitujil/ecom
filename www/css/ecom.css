@@ -1,0 +1,471 @@
+@font-face {
+    #font-family: "Ionicons";
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    src: url("http://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1");
+    src: url("http://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.eot?v=2.0.1#iefix") format("embedded-opentype"), url("http://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.ttf?v=2.0.1") format("truetype"), url("http://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.woff?v=2.0.1") format("woff"), url("http://code.ionicframework.com/ionicons/2.0.1/fonts/ionicons.svg?v=2.0.1#Ionicons") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.button {
+    #font-family: "Ionicons", serif;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+}
+
+.button-text {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+.icon-social-fb {
+    font-size: 50px;
+    color: #3b5998;
+}
+
+.icon-social-twitter {
+    font-size: 50px;
+    color: #55acee;
+}
+
+.icon-social-whatsapp {
+    font-size: 50px;
+    color: #43d854;
+}
+
+.icon-large {
+    font-size: xx-large;
+    color: #71c0b3;
+}
+.normal-song-info {
+    #font-weight: bold;
+    font-size: 11px;
+    font-style: normal;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #50514F;
+    line-height: 1;
+    margin: 10px;
+}
+
+.blue-song-info {
+    #font-weight: bold;
+    font-size: 11pt;
+    font-style: normal;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    #color: #50514F;
+    color: #ffffff;
+    line-height: 1;
+    margin: 10px;
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+    .song-cover {
+        width: 95%;
+        max-width:310px;
+        height: 310px;
+        position: relative;
+        #border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 667px) {
+    .song-cover {
+        width: 95%;
+        max-width:370px;
+        height: 370px;
+        position: relative;
+        #border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen
+and (min-device-width : 414px)
+and (max-device-width : 736px) {
+    .song-cover {
+        width: 95%;
+        max-width:410px;
+        height: 420px;
+        position: relative;
+        #border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media only screen
+and (min-device-width : 1024px) {
+    .song-cover {
+        width: 95%;
+        #max-width:400px;
+        height: 410px;
+        position: relative;
+        #border-radius: 10px;
+        margin-top: 10px;
+    }
+}
+
+.bar.bar-stable {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    #background-color: #71c0b3;
+    #background-color: #ffd000;
+    #background-color: #ff5959;
+    #background-color: #ffffff;
+    #background-color: #17bebb;
+    #background-color: #DE3645;
+    background-color: #ef3b4a;
+}
+
+.tabs {
+    #background-color: #71c0b3;
+    #background-color: #f2c500;
+    #background-color: #ff5959;
+    #background-color: #ffffff;
+    #background-color: #17bebb;
+    #background-color: #DE3645;
+    background-color: #ef3b4a;
+}
+
+.scroll-content {
+    overflow: visible !important;
+}
+
+.item-avatar, .item-avatar .item-content, .item-avatar-left, .item-avatar-left .item-content {
+    padding-left: 125px;
+    min-height: 100px;
+    font-size: 20pt;
+}
+
+.item-avatar > img:first-child, .item-avatar .item-image, .item-avatar .item-content > img:first-child, .item-avatar .item-content .item-image, .item-avatar-left > img:first-child, .item-avatar-left .item-image, .item-avatar-left .item-content > img:first-child, .item-avatar-left .item-content .item-image {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    max-width: 80px;
+    max-height: 80px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+ion-tabs.tabs-color-active-positive .tab-item.tab-item-active, ion-tabs.tabs-color-active-positive .tab-item.active, ion-tabs.tabs-color-active-positive .tab-item.activated {
+    color: #ffffff;
+    #color: #ef3b4a;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.bar.bar-stable .title {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #ffffff;
+    #color: #ef3b4a;
+}
+
+.bar-stable .button.button-clear {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    color: #ffffff;
+    #color: #ef3b4a;
+    font-size: 20px;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.bar-stable .button.button-more {
+    border-color: transparent;
+    background: none;
+    box-shadow: none;
+    #color: darkblue;
+    color: #ffffff;
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+h, h1, h2, h3, h4, h5, h6, .h, .h1, .h2, .h3, .h4, .h5, .h6 {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 0.5;
+}
+
+p, p1, p2, p3, p4, p5, p6, .p, .p1, .p2, .p3, .p4, .p5, .p6 {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    line-height: 1.2;
+}
+.center-content {
+    #padding: 2px;
+}
+
+.channel-face {
+    height: 100%;
+    width: 100%;
+    #margin: 5%;
+}
+
+.channel-face-name {
+    text-align: center;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12pt;
+}
+
+.channel-wrapper {
+    #background-color: #f8f8f8;
+    margin: 5%;
+}
+
+.channel-name {
+    color: white;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    margin: 10px 0 0 20px;
+    position: fixed;
+}
+
+.row {
+    padding: 0;
+}
+
+.ecom-page {
+    #background-color: #444444;
+    #background-color: #50514F;
+    #background-color: black;
+    background-color: #f8f8f8;
+    #background-image: url("/img/texture-wood-white.png");
+}
+
+.contact-info {
+    font-size: 12pt;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 20px;
+}
+
+.channel-detail-page {
+    #background-color: #444444;
+    #background-color: #50514F;
+    background-color: black;
+}
+
+.settings-content {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 12pt;
+    padding: 3%;
+    #background-image: url("/img/texture-wood-white.png");
+}
+
+.settings-content .icon {
+    padding: 20px;
+    font-size: 200%;
+}
+
+.settings-content .item-content {
+    color: #444444;
+}
+
+
+.my-custom-icon {
+    float: right;
+}
+
+.music-controls-fixed{
+    position: fixed;
+    bottom: 15%;
+    left:0;
+    right: 0;
+    text-align: center;
+    height: 50px;
+    #border-top:1px solid #b2b2b2;
+    #background-color: #f8f8f8;
+    #background-color: #444444;
+    #background-color: white;
+    cursor: pointer;
+}
+.music-controls .icon-play-pause {
+    float: center;
+    display: inline-block;
+    position: relative;
+    font-size: 56px;
+    #color: #50514F;
+    #color: #ef3b4a;
+    color: #17bebb;
+}
+
+.music-controls .icon-skip-left {
+    float: right;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    padding: 8px;
+    #color: #50514f;
+    color: #17bebb;
+}
+
+.music-controls .icon-skip-right {
+    float: left;
+    display: inline-block;
+    position: relative;
+    font-size: 40px;
+    padding: 8px;
+    #color: #50514f;
+    color: #17bebb;
+}
+
+.music-footer{
+    position: fixed;
+    bottom: 49px;
+    left:0;
+    right: 0;
+    text-align: center;
+    height: 42px;
+    #border-top:1px solid #b2b2b2;
+    #background-color: #f8f8f8;
+    #background-color: #444444;
+    background-color: white;
+    cursor: pointer;
+}
+
+.platform-browser .music-footer{
+    position: fixed;
+    bottom: 49px;
+    left:0;
+    right: 0;
+    text-align: center;
+    height: 42px;
+    #border-top:1px solid #b2b2b2;
+    #background-color: #f8f8f8;
+    #background-color: #444444;
+    background-color: white;
+    cursor: pointer;
+}
+
+.platform-android .music-footer{
+    position: fixed;
+    bottom: 0 #!important;
+    left:0;
+    right: 0;
+    text-align: center;
+    height: 42px;
+    border-top:1px solid #b2b2b2;
+    #background-color: #f8f8f8;
+    #background-color: #444444;
+    background-color: white;
+    cursor: pointer;
+}
+
+.music-footer .track, .music-footer .artist{
+    float: center;
+    #width: 80%;
+    font-size: 12px;
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #ffffff;
+    color: black;
+}
+
+.music-footer .channel-face{
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin: 5px;
+}
+
+.music-footer .play-pause{
+    float: right;
+    margin: 4px;
+    margin-right: 15px;
+    #width: 10%;
+    color: #50514f;
+    #color: #17bebb;
+    color: #ef3b4a;
+    #color: #55DDE0;
+    font-size: 34px;
+}
+
+.send-suggestion .suggestion-textarea {
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    #border-radius: 5px;
+    border: solid grey;
+}
+
+.send-suggestion .button {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12pt;
+    margin-top: 10px;
+    #float: center;
+    #border-radius: 5px;
+    background-color: #17bebb;
+    border-color: #17bebb;
+}
+
+.share-app .button {
+    #font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    #font-family: Arial, Helvetica, sans-serif;
+    #font-family: Verdana, Geneva, sans-serif;
+    #font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 12pt;
+    margin-top: 10px;
+    float: left;
+    #border-radius: 5px;
+}
+
+.spinner svg {
+  width: 28px;
+  height: 28px;
+  stroke: #17bebb;
+  fill: #17bebb;
+}
+
+.popup-body
+{
+  text-align: center;
+}
+
+.popup-buttons .button
+{
+  background-color: #17bebb;
+  border-color: #17bebb;
+}
+
+.popup-buttons .button.activated
+{
+  background-color: #17bebb;
+}

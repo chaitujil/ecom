@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget android-versionCode="21" id="com.mady.vibes" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cordova.apache.org/ns/1.0 ">
+<widget android-versionCode="21" id="com.mady.ecom" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cordova.apache.org/ns/1.0 ">
     <name>Bindas</name>
     <description>
-    A telugu entertainment app.
+    Customer loyalty app
   </description>
     <author email="developervibes@gmail.com" href="">
-    vibes developer team
+    ecom developer team
   </author>
     <content src="index.html" />
     <allow-navigation href="*" />

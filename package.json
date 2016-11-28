@@ -1,7 +1,7 @@
 {
-  "name": "vibes",
+  "name": "ecom",
   "version": "1.0.0",
-  "description": "A Telugu radio app",
+  "description": "Customer loyalty app",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",

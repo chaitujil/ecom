@@ -1,0 +1,14 @@
+<ion-view view-title="Send us a suggestion" class="ecom-page">
+    <ion-content class="center-content">
+        <div class="send-suggestion">
+            <textarea class="suggestion-textarea" rows="10" id="suggestion" ng-model="suggestion"
+                      placeholder="Type your suggestion here..."></textarea>
+          <center>
+            <button class="button button-calm"
+                    ng-click="sendSuggestionCtrl.sendSuggestion(suggestion); suggestion = null">Send 
+            </button>
+          </center>
+        </div>
+
+    </ion-content>
+</ion-view>

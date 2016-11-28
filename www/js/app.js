@@ -1,8 +1,8 @@
-// Ionic vibes App
+// Ionic ecom App
 (function () {
     'use strict';
 
-    angular.module('vibes', ['ionic', 'ngCordova', 'ngSpecialOffer', 'ngStorage'])
+    angular.module('ecom', ['ionic', 'ngCordova', 'ngSpecialOffer', 'ngStorage'])
         .run(runIonic)
         .config(configStateProvider)
         .config(['$httpProvider', configHttpProvider]);
@@ -23,12 +23,12 @@
 
             var appVersion = '1.0.21';
             var iosId = '1120991525';
-            var androidPackageName = 'com.ionicframework.example146317';
+            var androidPackageName = 'ecom';
 
             $specialOffer.init({
-                id           : 'com.ionicframework.example146317' + appVersion,
+                id           : 'ecom' + appVersion,
                 showOnCount  : 10,
-                title        : 'Bindas',
+                title        : 'ecom',
                 text         : 'If you enjoy this app please take a moment to rate it',
                 agreeLabel   : 'Rate App',
                 remindLabel  : 'Remind Me Later',
@@ -60,26 +60,36 @@
             // setup an abstract state for the tabs directive
                 url: '/tab',
                 abstract: true,
-                templateUrl: 'js/vibes/other/tabs.html'
+                templateUrl: 'js/ecom/other/tabs.html'
             })
             // Each tab has its own nav history stack:
-            .state('tab.songs', {
-                url: '/songs',
+            .state('tab.add', {
+                url: '/add',
                 views: {
-                    'tab-songs': {
+                    'tab-add': {
                         cache: false,
-                        templateUrl: 'js/vibes/songs/tab-songs.html',
-                        controller: 'SongsCtrl as songsCtrl'
+                        templateUrl: 'js/ecom/reports/tab-add.html',
+                        controller: 'AddCtrl as addCtrl'
                     }
                 }
             })
-            .state('tab.dialogues', {
-                url: '/dialogues',
+            .state('tab.push', {
+                url: '/push',
                 views: {
-                    'tab-dialogues': {
+                    'tab-push': {
                         cache: false,
-                        templateUrl: 'js/vibes/dialogues/tab-dialogues.html',
-                        controller: 'DialoguesCtrl as dialoguesCtrl'
+                        templateUrl: 'js/ecom/push/tab-push.html',
+                        controller: 'PushCtrl as pushCtrl'
+                    }
+                }
+            })
+            .state('tab.reports', {
+                url: '/reports',
+                views: {
+                    'tab-reports': {
+                        cache: false,
+                        templateUrl: 'js/ecom/push/tab-reports.html',
+                        controller: 'ReportsCtrl as reportsCtrl'
                     }
                 }
             })
@@ -87,7 +97,7 @@
                 url: '/settings',
                 views: {
                     'tab-settings': {
-                        templateUrl: 'js/vibes/settings/tab-settings.html',
+                        templateUrl: 'js/ecom/settings/tab-settings.html',
                         controller: 'SettingsCtrl as settingsCtrl'
                     }
                 }
@@ -96,7 +106,7 @@
                 url: '/settings/contactus',
                 views: {
                     'tab-settings': {
-                        templateUrl: 'js/vibes/settings/tab-contact-us.html',
+                        templateUrl: 'js/ecom/settings/tab-contact-us.html',
                         controller: 'ContactUsCtrl as contactUsCtrl'
                     }
                 }
@@ -105,7 +115,7 @@
                 url: '/settings/shareapp',
                 views: {
                     'tab-settings': {
-                        templateUrl: 'js/vibes/settings/tab-share-app.html',
+                        templateUrl: 'js/ecom/settings/tab-share-app.html',
                         controller: 'ShareThisAppCtrl as shareThisAppCtrl'
                     }
                 }
@@ -113,7 +123,7 @@
                 url: '/settings/rateapp',
                 views: {
                     'tab-settings': {
-                        templateUrl: 'js/vibes/settings/tab-rate-app.html',
+                        templateUrl: 'js/ecom/settings/tab-rate-app.html',
                         controller: 'RateAppCtrl as rateAppCtrl'
                     }
                 }
@@ -121,13 +131,13 @@
                 url: '/settings/sendsuggestion',
                 views: {
                     'tab-settings': {
-                        templateUrl: 'js/vibes/settings/tab-send-suggestion.html',
+                        templateUrl: 'js/ecom/settings/tab-send-suggestion.html',
                         controller: 'SendSuggestionCtrl as sendSuggestionCtrl'
                     }
                 }
             });
 
-        $urlRouterProvider.otherwise('/tab/songs');
+        $urlRouterProvider.otherwise('/tab/add');
     }
 
     function configHttpProvider($httpProvider) {
